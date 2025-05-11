@@ -1,3 +1,4 @@
+# Two projects here. First the simple (because the full thing did not work)
 # Simple Neural Network: 10-in-1-out Mapping
 
 This project implements a simple neural network using scikit-learn that learns to map a 10-dimensional one-hot encoded input vector to a single output value representing the index of the '1' in the input.
