@@ -1,7 +1,7 @@
 # A simple encoder - decoder
 simple_ml.py is a simple encoder, 10 inputs, a single hidden unit, reproducing the input at the output. The input is an array of 10 digits, all zero except for a single 1. I'm just proving to myself that this will work, as a building block for later projects.
 
-I broke this into 3 parts:
+I broke this into 3 parts (each runs separately):
 1. TenInOneOut.py - Two layers, 10 units input, 1 output that gives the index of the 1 in the input array.
 2. OneInTenOut.py - Two layers, 1 input unit (int from 0 to 9), 10 outputs, an array of zeros with a 1 whose index is the input int.
 3. simple_ml.py - The real goal, a 3 layer encoder - decoder. 10 in, 1 hidden unit, 10 out. Output reproduces the input, which is 10 ints, all 0 except a 1 in a single location. The hidden layer just learns the index of the 1.
